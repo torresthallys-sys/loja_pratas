@@ -317,7 +317,7 @@ export default function Page() {
       <header className="site-header">
         <a href="#inicio" className="brand">
           <span className="brand-mark"><Gem size={17} /></span>
-          <span>Annas<span className="brand-muted"> Pratas</span></span>
+          <span>ANNAS<span className="brand-muted"> PRATAS</span></span>
         </a>
         <nav className={menuOpen ? 'nav-links open' : 'nav-links'}>
           <a href="#inicio" onClick={() => setMenuOpen(false)}>Início</a>
@@ -453,7 +453,7 @@ export default function Page() {
       {/* ─── Seção feature ─── */}
       <section className="feature-section section">
         <div className="feature-image">
-          <img src="https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=1200&q=85" alt="Detalhe de joias de prata" />
+          <img src="/imagens/WhatsApp%20Image%202026-10-01%20at%2012.05.17.jpeg" alt="Detalhe de joias de prata" />
         </div>
         <div className="feature-copy">
           <p className="eyebrow">o detalhe importa</p>
@@ -476,7 +476,7 @@ export default function Page() {
           <a href="#catalogo" className="button light">Ver peças <ArrowRight size={17} /></a>
         </div>
         <div className="editorial-image">
-          <img src="https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=1200&q=85" alt="Colar de prata em composição editorial" />
+          <img src="/imagens/WhatsApp%20Image%202026-10-01%20at%2012.05.17%20(1).jpeg" alt="Colar de prata em composição editorial" />
           <span>02 / 02</span>
         </div>
       </section>
@@ -508,7 +508,7 @@ export default function Page() {
           <div>
             <a href="#inicio" className="brand footer-brand">
               <span className="brand-mark"><Gem size={17} /></span>
-              Annas<span className="brand-muted"> Pratas</span>
+              ANNAS<span className="brand-muted"> PRATAS</span>
             </a>
             <p>Prata que combina<br />com você.</p>
           </div>
@@ -522,8 +522,10 @@ export default function Page() {
             <div>
               <span>encontre</span>
               <a href="https://instagram.com" target="_blank">Instagram</a>
+              <a href="https://www.instagram.com/annaspratas4/" target="_blank">Instagram: @annaspratas4</a>
               <a href="https://wa.me/556285399059" target="_blank">WhatsApp</a>
-              <a href="mailto:oi@almaprata.com">oi@almaprata.com</a>
+              <a href="https://wa.me/5562985399059" target="_blank">WhatsApp: (62) 98539-9059 — Fabíola</a>
+              <a href="https://wa.me/5562993838748" target="_blank">WhatsApp: (62) 99383-8748 — Henrique</a>
             </div>
           </div>
         </div>
