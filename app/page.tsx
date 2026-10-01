@@ -317,7 +317,7 @@ export default function Page() {
       <header className="site-header">
         <a href="#inicio" className="brand">
           <span className="brand-mark"><Gem size={17} /></span>
-          <span>ANNA<span className="brand-muted"> PRATAS</span></span>
+          <span>Annas<span className="brand-muted"> Pratas</span></span>
         </a>
         <nav className={menuOpen ? 'nav-links open' : 'nav-links'}>
           <a href="#inicio" onClick={() => setMenuOpen(false)}>Início</a>
@@ -357,7 +357,7 @@ export default function Page() {
           </p>
 
           <h1 className="video-hero-title">
-            Anna Pratas
+            Annas Pratas
             <span>— Prata que combina com você —</span>
           </h1>
 
@@ -508,7 +508,7 @@ export default function Page() {
           <div>
             <a href="#inicio" className="brand footer-brand">
               <span className="brand-mark"><Gem size={17} /></span>
-              ANNA<span className="brand-muted"> PRATAS</span>
+              Annas<span className="brand-muted"> Pratas</span>
             </a>
             <p>Prata que combina<br />com você.</p>
           </div>
@@ -528,7 +528,7 @@ export default function Page() {
           </div>
         </div>
         <div className="footer-bottom">
-          <span>© 2024 Anna Pratas</span>
+          <span>© 2024 Annas Pratas</span>
           <span style={{ color: '#88847c', fontSize: '10px', letterSpacing: '.06em' }}>CNPJ: 57.616.430/0001-50</span>
           <span>feito com intenção <Sparkles size={15} /></span>
         </div>
