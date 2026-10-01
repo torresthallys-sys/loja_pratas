@@ -3,7 +3,7 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Ana Pratas — Prata que combina com você',
+  title: 'Anna Pratas — Prata que combina com você',
   description: 'Joias em prata 925 pensadas para acompanhar cada versão de você.',
   generator: 'v0.app',
   icons: {

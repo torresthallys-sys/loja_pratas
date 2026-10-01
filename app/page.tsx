@@ -25,72 +25,148 @@ type Product = {
 
 const products: Product[] = [
   {
-    id: 1,
-    name: 'Anel Aurora',
-    category: 'Anéis',
-    price: 89.9,
-    description: 'Prata 925 • acabamento polido',
-    image: 'https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=85',
-    images: [
-      // Adicione aqui os caminhos das fotos do Anel Aurora
-      // '/imagens/produtos/1/foto1.jpg',
-      // '/imagens/produtos/1/foto2.jpg',
-    ],
-  },
-  {
-    id: 2,
-    name: 'Corrente Atlas',
-    category: 'Correntes',
-    price: 149.9,
-    description: 'Prata 925 • elo italiano',
-    image: 'https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=900&q=85',
-    images: [
-      // '/imagens/produtos/2/foto1.jpg',
-    ],
-  },
-  {
-    id: 3,
-    name: 'Bracelete Lume',
+    id: 7,
+    name: 'Pulseira Estrela Cravejado',
     category: 'Pulseiras',
-    price: 119.9,
-    description: 'Prata 925 • design orgânico',
-    image: 'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=900&q=85',
-    images: [
-      // '/imagens/produtos/3/foto1.jpg',
-    ],
+    price: 109.99,
+    description: '',
+    image: '/imagens/produtos/7/foto1.webp',
+    images: ['/imagens/produtos/7/foto1.webp'],
   },
   {
-    id: 4,
-    name: 'Argola Íris',
-    category: 'Brincos',
-    price: 69.9,
-    description: 'Prata 925 • leveza para todos os dias',
-    image: 'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=900&q=85',
-    images: [
-      // '/imagens/produtos/4/foto1.jpg',
-    ],
+    id: 8,
+    name: 'Pulseira Reta Cravejado',
+    category: 'Pulseiras',
+    price: 109.99,
+    description: '',
+    image: '/imagens/produtos/8/foto1.webp',
+    images: ['/imagens/produtos/8/foto1.webp'],
   },
   {
-    id: 5,
-    name: 'Pingente Lua',
-    category: 'Pingentes',
-    price: 79.9,
-    description: 'Prata 925 • brilho sutil',
-    image: 'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=900&q=85',
-    images: [
-      // '/imagens/produtos/5/foto1.jpg',
-    ],
+    id: 9,
+    name: 'Pulseira Elo Ponto de Luz Coração',
+    category: 'Pulseiras',
+    price: 89.99,
+    description: '',
+    image: '/imagens/produtos/9/foto.webp',
+    images: ['/imagens/produtos/9/foto.webp'],
   },
   {
-    id: 6,
-    name: 'Conjunto Essenza',
-    category: 'Conjuntos',
-    price: 179.9,
-    description: 'Prata 925 • colar e brincos',
-    image: 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=900&q=85',
-    images: [
-      // '/imagens/produtos/6/foto1.jpg',
-    ],
+    id: 10,
+    name: 'Pulseira 2 Fios',
+    category: 'Pulseiras',
+    price: 159.99,
+    description: '',
+    image: '/imagens/produtos/10/foto.webp',
+    images: ['/imagens/produtos/10/foto.webp'],
+  },
+  {
+    id: 11,
+    name: 'Pulseira 2 Fios',
+    category: 'Pulseiras',
+    price: 169.99,
+    description: '',
+    image: '/imagens/produtos/11/foto.webp',
+    images: ['/imagens/produtos/11/foto.webp'],
+  },
+  {
+    id: 12,
+    name: 'Pulseira 2 Fios Nó',
+    category: 'Pulseiras',
+    price: 159.99,
+    description: '',
+    image: '/imagens/produtos/12/foto.webp',
+    images: ['/imagens/produtos/12/foto.webp'],
+  },
+  {
+    id: 13,
+    name: 'Pulseira 2 Fios Nó Brilhante',
+    category: 'Pulseiras',
+    price: 159.99,
+    description: '',
+    image: '/imagens/produtos/13/foto.webp',
+    images: ['/imagens/produtos/13/foto.webp'],
+  },
+  {
+    id: 14,
+    name: 'Pulseira Árvore da Vida',
+    category: 'Pulseiras',
+    price: 99.99,
+    description: '',
+    image: '/imagens/produtos/14/foto.webp',
+    images: ['/imagens/produtos/14/foto.webp'],
+  },
+  {
+    id: 15,
+    name: 'Pulseira Coração Rosa Detalhes Zircônia',
+    category: 'Pulseiras',
+    price: 129.99,
+    description: '',
+    image: '/imagens/produtos/15/foto.webp',
+    images: ['/imagens/produtos/15/foto.webp'],
+  },
+  {
+    id: 16,
+    name: 'Pulseira Lacraia 3,3m',
+    category: 'Pulseiras',
+    price: 189.99,
+    description: '',
+    image: '/imagens/produtos/16/foto.webp',
+    images: ['/imagens/produtos/16/foto.webp'],
+  },
+  {
+    id: 17,
+    name: 'Pulseira Reviera',
+    category: 'Pulseiras',
+    price: 189.99,
+    description: '',
+    image: '/imagens/produtos/17/foto.webp',
+    images: ['/imagens/produtos/17/foto.webp'],
+  },
+  {
+    id: 18,
+    name: 'Pulseira Transilin',
+    category: 'Pulseiras',
+    price: 144.99,
+    description: '',
+    image: '/imagens/produtos/18/foto.webp',
+    images: ['/imagens/produtos/18/foto.webp'],
+  },
+  {
+    id: 19,
+    name: 'Pulseira Trevo',
+    category: 'Pulseiras',
+    price: 179.99,
+    description: '',
+    image: '/imagens/produtos/19/foto.webp',
+    images: ['/imagens/produtos/19/foto.webp'],
+  },
+  {
+    id: 20,
+    name: 'Pulseira Trevo',
+    category: 'Pulseiras',
+    price: 279.99,
+    description: '',
+    image: '/imagens/produtos/20/foto.webp',
+    images: ['/imagens/produtos/20/foto.webp'],
+  },
+  {
+    id: 21,
+    name: 'Pulseira Trevo Azul',
+    category: 'Pulseiras',
+    price: 89.99,
+    description: '',
+    image: '/imagens/produtos/21/foto.webp',
+    images: ['/imagens/produtos/21/foto.webp'],
+  },
+  {
+    id: 22,
+    name: 'Pulseira Trevo Cravejado',
+    category: 'Pulseiras',
+    price: 279.99,
+    description: '',
+    image: '/imagens/produtos/22/foto.webp',
+    images: ['/imagens/produtos/22/foto.webp'],
   },
 ]
 
@@ -196,11 +272,34 @@ export default function Page() {
   const [gallery, setGallery] = useState<Product | null>(null)
 
   const filtered = category === 'Todos' ? products : products.filter((p) => p.category === category)
+
+  useEffect(() => {
+    const cards = document.querySelectorAll<HTMLElement>('.catalog-section .product-card')
+
+    if (!('IntersectionObserver' in window) || window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      cards.forEach((card) => card.classList.add('is-visible'))
+      return
+    }
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return
+        entry.target.classList.add('is-visible')
+        observer.unobserve(entry.target)
+      })
+    }, { threshold: 0.12, rootMargin: '0px 0px -32px 0px' })
+
+    cards.forEach((card) => {
+      if (!card.classList.contains('is-visible')) observer.observe(card)
+    })
+
+    return () => observer.disconnect()
+  }, [category])
+
   const cartItems = useMemo(() => products.filter((p) => cart[p.id]), [cart])
   const totalItems = Object.values(cart).reduce((sum, qty) => sum + qty, 0)
   const total = cartItems.reduce((sum, p) => sum + p.price * cart[p.id], 0)
 
-  const addToCart = (id: number) => setCart((c) => ({ ...c, [id]: (c[id] || 0) + 1 }))
   const changeQuantity = (id: number, change: number) =>
     setCart((c) => {
       const next = (c[id] || 0) + change
@@ -209,7 +308,7 @@ export default function Page() {
     })
   const checkout = () => {
     const lines = cartItems.map((p) => `• ${p.name} — ${cart[p.id]}x — ${formatPrice(p.price)}`).join('%0A')
-    window.open(`https://wa.me/5511999999999?text=Olá! Gostaria de fazer um pedido:%0A%0A${lines}%0A%0ATotal: ${formatPrice(total)}%0A%0AGostaria de confirmar a disponibilidade dos produtos.`, '_blank')
+    window.open(`https://wa.me/556285399059?text=Olá! Gostaria de fazer um pedido:%0A%0A${lines}%0A%0ATotal: ${formatPrice(total)}%0A%0AGostaria de confirmar a disponibilidade dos produtos.`, '_blank')
   }
 
   return (
@@ -218,7 +317,7 @@ export default function Page() {
       <header className="site-header">
         <a href="#inicio" className="brand">
           <span className="brand-mark"><Gem size={17} /></span>
-          <span>ANA<span className="brand-muted"> PRATAS</span></span>
+          <span>ANNA<span className="brand-muted"> PRATAS</span></span>
         </a>
         <nav className={menuOpen ? 'nav-links open' : 'nav-links'}>
           <a href="#inicio" onClick={() => setMenuOpen(false)}>Início</a>
@@ -258,7 +357,7 @@ export default function Page() {
           </p>
 
           <h1 className="video-hero-title">
-            Ana Pratas
+            Anna Pratas
             <span>— Prata que combina com você —</span>
           </h1>
 
@@ -305,11 +404,7 @@ export default function Page() {
           {filtered.map((product, index) => {
             const hasMultiplePhotos = getProductImages(product).length > 1
             return (
-              <article
-                className="product-card"
-                key={product.id}
-                style={{ animationDelay: `${index * 0.07}s` }}
-              >
+              <article className="product-card" key={product.id}>
                 <div className="product-image">
                   <img src={product.image} alt={product.name} />
                   <span className="product-number">0{index + 1}</span>
@@ -328,7 +423,7 @@ export default function Page() {
 
                   <button
                     className="quick-add"
-                    onClick={() => { addToCart(product.id); setCartOpen(true) }}
+                    onClick={() => { changeQuantity(product.id, 1); setCartOpen(true) }}
                     aria-label={`Adicionar ${product.name}`}
                   >
                     <Plus size={19} />
@@ -413,7 +508,7 @@ export default function Page() {
           <div>
             <a href="#inicio" className="brand footer-brand">
               <span className="brand-mark"><Gem size={17} /></span>
-              ANA<span className="brand-muted"> PRATAS</span>
+              ANNA<span className="brand-muted"> PRATAS</span>
             </a>
             <p>Prata que combina<br />com você.</p>
           </div>
@@ -427,13 +522,14 @@ export default function Page() {
             <div>
               <span>encontre</span>
               <a href="https://instagram.com" target="_blank">Instagram</a>
-              <a href="https://wa.me/5511999999999" target="_blank">WhatsApp</a>
+              <a href="https://wa.me/556285399059" target="_blank">WhatsApp</a>
               <a href="mailto:oi@almaprata.com">oi@almaprata.com</a>
             </div>
           </div>
         </div>
         <div className="footer-bottom">
-          <span>© 2024 Ana Pratas</span>
+          <span>© 2024 Anna Pratas</span>
+          <span style={{ color: '#88847c', fontSize: '10px', letterSpacing: '.06em' }}>CNPJ: 57.616.430/0001-50</span>
           <span>feito com intenção <Sparkles size={15} /></span>
         </div>
       </footer>
@@ -472,7 +568,7 @@ export default function Page() {
                         <div className="quantity">
                           <button onClick={() => changeQuantity(product.id, -1)}><Minus size={13} /></button>
                           <span>{cart[product.id]}</span>
-                          <button onClick={() => changeQuantity(product.id, 1)}><Plus size={13} /></button>
+                          <button className="quantity-plus" onClick={() => changeQuantity(product.id, 1)}><Plus size={13} /></button>
                           <button className="remove" onClick={() => changeQuantity(product.id, -cart[product.id])}><Trash2 size={14} /></button>
                         </div>
                       </div>

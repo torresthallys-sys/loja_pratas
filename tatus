@@ -1,0 +1,14 @@
+warning: in the working copy of 'app/layout.tsx', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/app/layout.tsx b/app/layout.tsx[m
+[1mindex 615b0a8..c290c7e 100644[m
+[1m--- a/app/layout.tsx[m
+[1m+++ b/app/layout.tsx[m
+[36m@@ -3,7 +3,7 @@[m [mimport type { Metadata, Viewport } from 'next'[m
+ import './globals.css'[m
+ [m
+ export const metadata: Metadata = {[m
+[31m-  title: 'Ana Pratas — Prata que combina com você',[m
+[32m+[m[32m  title: 'Anna Pratas — Prata que combina com você',[m
+   description: 'Joias em prata 925 pensadas para acompanhar cada versão de você.',[m
+   generator: 'v0.app',[m
+   icons: {[m
