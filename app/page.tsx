@@ -476,7 +476,7 @@ export default function Page() {
           <a href="#catalogo" className="button light">Ver peças <ArrowRight size={17} /></a>
         </div>
         <div className="editorial-image">
-          <img src="https://images.unsplash.com/photo-1599459183200-59c768f642c0?auto=format&fit=crop&w=1200&q=85" alt="Colar de prata em composição editorial" />
+          <img src="https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=1200&q=85" alt="Colar de prata em composição editorial" />
           <span>02 / 02</span>
         </div>
       </section>
