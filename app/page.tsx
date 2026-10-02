@@ -168,6 +168,42 @@ const products: Product[] = [
     image: '/imagens/produtos/22/foto.webp',
     images: ['/imagens/produtos/22/foto.webp'],
   },
+  {
+    id: 23,
+    name: 'Pulseira 2 Fios Detalhes Bolinha',
+    category: 'Pulseiras',
+    price: 279.99,
+    description: '',
+    image: '/imagens/produtos/23/foto.webp',
+    images: ['/imagens/produtos/23/foto.webp'],
+  },
+  {
+    id: 24,
+    name: 'Pulseira Simples Coração',
+    category: 'Pulseiras',
+    price: 49.99,
+    description: '',
+    image: '/imagens/produtos/24/foto.webp',
+    images: ['/imagens/produtos/24/foto.webp'],
+  },
+  {
+    id: 25,
+    name: 'Pulseira Infinito',
+    category: 'Pulseiras',
+    price: 69.99,
+    description: '',
+    image: '/imagens/produtos/25/foto.webp',
+    images: ['/imagens/produtos/25/foto.webp'],
+  },
+  {
+    id: 26,
+    name: 'Pulseira Esteira',
+    category: 'Pulseiras',
+    price: 119.99,
+    description: '',
+    image: '/imagens/produtos/26/foto.webp',
+    images: ['/imagens/produtos/26/foto.webp'],
+  },
 ]
 
 const categories = ['Todos', 'Anéis', 'Correntes', 'Pulseiras', 'Brincos', 'Pingentes', 'Conjuntos']
