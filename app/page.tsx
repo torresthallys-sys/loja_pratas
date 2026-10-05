@@ -456,9 +456,99 @@ const products: Product[] = [
     image: '/imagens/produtos/54/foto.webp',
     images: ['/imagens/produtos/54/foto.webp'],
   },
+  {
+    id: 55,
+    name: 'Tornozeleira conchinhas',
+    category: 'Tornozeleiras',
+    price: 74.99,
+    description: '',
+    image: '/imagens/produtos/55/foto.jpeg',
+    images: ['/imagens/produtos/55/foto.jpeg'],
+  },
+  {
+    id: 56,
+    name: 'Tornozeleira conchinhas e estrelinhas',
+    category: 'Tornozeleiras',
+    price: 73.99,
+    description: '',
+    image: '/imagens/produtos/56/foto.jpeg',
+    images: ['/imagens/produtos/56/foto.jpeg'],
+  },
+  {
+    id: 57,
+    name: 'Tornozeleira coração',
+    category: 'Tornozeleiras',
+    price: 74.99,
+    description: '',
+    image: '/imagens/produtos/57/foto.jpeg',
+    images: ['/imagens/produtos/57/foto.jpeg'],
+  },
+  {
+    id: 58,
+    name: 'Tornozeleira elos pingo de luz',
+    category: 'Tornozeleiras',
+    price: 74.99,
+    description: '',
+    image: '/imagens/produtos/58/foto.jpeg',
+    images: ['/imagens/produtos/58/foto.jpeg'],
+  },
+  {
+    id: 59,
+    name: 'Tornozeleira estrela e lua',
+    category: 'Tornozeleiras',
+    price: 59.99,
+    description: '',
+    image: '/imagens/produtos/59/foto.jpeg',
+    images: ['/imagens/produtos/59/foto.jpeg'],
+  },
+  {
+    id: 60,
+    name: 'Tornozeleira estrelinha',
+    category: 'Tornozeleiras',
+    price: 74.99,
+    description: '',
+    image: '/imagens/produtos/60/foto.jpeg',
+    images: ['/imagens/produtos/60/foto.jpeg'],
+  },
+  {
+    id: 61,
+    name: 'Tornozeleira Gota',
+    category: 'Tornozeleiras',
+    price: 59.99,
+    description: '',
+    image: '/imagens/produtos/61/foto.jpeg',
+    images: ['/imagens/produtos/61/foto.jpeg'],
+  },
+  {
+    id: 62,
+    name: 'Tornozeleira lua',
+    category: 'Tornozeleiras',
+    price: 49.99,
+    description: '',
+    image: '/imagens/produtos/62/foto.jpeg',
+    images: ['/imagens/produtos/62/foto.jpeg'],
+  },
+  {
+    id: 63,
+    name: 'Tornozeleira olho grego',
+    category: 'Tornozeleiras',
+    price: 49.99,
+    description: '',
+    image: '/imagens/produtos/63/foto.jpeg',
+    images: ['/imagens/produtos/63/foto.jpeg'],
+  },
+  {
+    id: 64,
+    name: 'Tornozeleira tartaruga',
+    category: 'Tornozeleiras',
+    price: 49.99,
+    description: '',
+    image: '/imagens/produtos/64/foto.jpeg',
+    images: ['/imagens/produtos/64/foto.jpeg'],
+  },
 ]
 
-const categories = ['Todos', 'Anéis', 'Correntes', 'Pulseiras', 'Piercing', 'Brincos', 'Pingentes', 'Conjuntos']
+const categories = ['Todos', 'Anéis', 'Correntes', 'Pulseiras', 'Tornozeleiras', 'Piercing', 'Brincos', 'Pingentes', 'Conjuntos']
 const formatPrice = (value: number) => value.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })
 
 /** Retorna todas as imagens de um produto (locais + fallback para URL externa) */
@@ -683,7 +773,7 @@ export default function Page() {
         <div className="category-tabs">
           {categories.map((item) => (
             <button key={item} className={category === item ? 'active' : ''} onClick={() => setCategory(item)}>
-              {item}
+              {item === 'Pulseiras' ? 'Peças Feminina' : item}
             </button>
           ))}
         </div>
