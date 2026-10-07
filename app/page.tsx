@@ -636,6 +636,33 @@ const products: Product[] = [
     image: '/imagens/produtos/74/foto.jpeg',
     images: ['/imagens/produtos/74/foto.jpeg'],
   },
+  {
+    id: 75,
+    name: 'Brinco baby tarraxa borboleta',
+    category: 'Infantil',
+    price: 34.99,
+    description: '',
+    image: '/imagens/produtos/75/foto.jpeg',
+    images: ['/imagens/produtos/75/foto.jpeg'],
+  },
+  {
+    id: 76,
+    name: 'Brinco baby tarraxa pingo de luz',
+    category: 'Infantil',
+    price: 39.99,
+    description: '',
+    image: '/imagens/produtos/76/foto.jpeg',
+    images: ['/imagens/produtos/76/foto.jpeg'],
+  },
+  {
+    id: 77,
+    name: 'Brinco baby tarraxa quadrada',
+    category: 'Infantil',
+    price: 34.99,
+    description: '',
+    image: '/imagens/produtos/77/foto.jpeg',
+    images: ['/imagens/produtos/77/foto.jpeg'],
+  },
 ]
 
 const categories = ['Todos', 'Anéis', 'Correntes', 'Pulseiras', 'Tornozeleiras', 'Piercing', 'Brincos', 'Pingentes', 'Conjuntos', 'Infantil']
