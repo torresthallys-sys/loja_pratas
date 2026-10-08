@@ -663,9 +663,81 @@ const products: Product[] = [
     image: '/imagens/produtos/77/foto.jpeg',
     images: ['/imagens/produtos/77/foto.jpeg'],
   },
+  {
+    id: 78,
+    name: 'Corrente 1,3MM 70CM',
+    category: 'Peças Masculinas',
+    price: 159.99,
+    description: '',
+    image: '/imagens/produtos/78/foto.webp',
+    images: ['/imagens/produtos/78/foto.webp'],
+  },
+  {
+    id: 79,
+    name: 'Corrente 2MM 60CM +Pingente',
+    category: 'Peças Masculinas',
+    price: 229.99,
+    description: '',
+    image: '/imagens/produtos/79/foto.webp',
+    images: ['/imagens/produtos/79/foto.webp'],
+  },
+  {
+    id: 80,
+    name: 'Corrente 3x1 60CM 4,3MM',
+    category: 'Peças Masculinas',
+    price: 379.99,
+    description: '',
+    image: '/imagens/produtos/80/foto.webp',
+    images: ['/imagens/produtos/80/foto.webp'],
+  },
+  {
+    id: 81,
+    name: 'Corrente 3x1 60Cm 3,5MM',
+    category: 'Peças Masculinas',
+    price: 339.99,
+    description: '',
+    image: '/imagens/produtos/81/foto.webp',
+    images: ['/imagens/produtos/81/foto.webp'],
+  },
+  {
+    id: 82,
+    name: 'Corrente 60CM 2MM + pingente Pai Meu Herói',
+    category: 'Peças Masculinas',
+    price: 229.99,
+    description: '',
+    image: '/imagens/produtos/82/foto.webp',
+    images: ['/imagens/produtos/82/foto.webp'],
+  },
+  {
+    id: 83,
+    name: 'Corrente Groumet dupla 3,3MM 50CM',
+    category: 'Peças Masculinas',
+    price: 479.99,
+    description: '',
+    image: '/imagens/produtos/83/foto.webp',
+    images: ['/imagens/produtos/83/foto.webp'],
+  },
+  {
+    id: 84,
+    name: 'Corrente Piastrine 2MM 60CM + Pingente',
+    category: 'Peças Masculinas',
+    price: 229.99,
+    description: '',
+    image: '/imagens/produtos/84/foto.webp',
+    images: ['/imagens/produtos/84/foto.webp'],
+  },
+  {
+    id: 85,
+    name: 'Corrente tijolinho 60 CM 3,3MM',
+    category: 'Peças Masculinas',
+    price: 379.99,
+    description: '',
+    image: '/imagens/produtos/85/foto.webp',
+    images: ['/imagens/produtos/85/foto.webp'],
+  },
 ]
 
-const categories = ['Todos', 'Anéis', 'Correntes', 'Pulseiras', 'Tornozeleiras', 'Piercing', 'Brincos', 'Pingentes', 'Conjuntos', 'Infantil']
+const categories = ['Todos', 'Anéis', 'Correntes', 'Pulseiras', 'Tornozeleiras', 'Piercing', 'Brincos', 'Pingentes', 'Conjuntos', 'Infantil', 'Peças Masculinas']
 const formatPrice = (value: number) => value.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })
 
 /** Retorna todas as imagens de um produto (locais + fallback para URL externa) */
