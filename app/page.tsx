@@ -735,6 +735,33 @@ const products: Product[] = [
     image: '/imagens/produtos/85/foto.webp',
     images: ['/imagens/produtos/85/foto.webp'],
   },
+  {
+    id: 86,
+    name: 'Corrente 3,3MM Elo Português + Pingente 60CM',
+    category: 'Peças Masculinas',
+    price: 259.99,
+    description: '',
+    image: '/imagens/produtos/86/corrente-3-3mm-elo-portugues-pingente-60cm.webp',
+    images: ['/imagens/produtos/86/corrente-3-3mm-elo-portugues-pingente-60cm.webp'],
+  },
+  {
+    id: 87,
+    name: 'Corrente 3x1 + Pingente 2,3MM 70CM',
+    category: 'Peças Masculinas',
+    price: 349.99,
+    description: '',
+    image: '/imagens/produtos/87/corrente-3x1-pingente-2-3mm-70cm.webp',
+    images: ['/imagens/produtos/87/corrente-3x1-pingente-2-3mm-70cm.webp'],
+  },
+  {
+    id: 88,
+    name: 'Corrente Groumet Duplo + Pingente 70 CM 3,3MM',
+    category: 'Peças Masculinas',
+    price: 399.99,
+    description: '',
+    image: '/imagens/produtos/88/corrente-groumet-duplo-pingente-70-cm-3-3mm.webp',
+    images: ['/imagens/produtos/88/corrente-groumet-duplo-pingente-70-cm-3-3mm.webp'],
+  },
 ]
 
 const categories = ['Todos', 'Anéis', 'Correntes', 'Pulseiras', 'Tornozeleiras', 'Piercing', 'Brincos', 'Pingentes', 'Conjuntos', 'Infantil', 'Peças Masculinas']
