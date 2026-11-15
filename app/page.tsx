@@ -511,15 +511,6 @@ const products: Product[] = [
     images: ['/imagens/produtos/60/foto.jpeg'],
   },
   {
-    id: 61,
-    name: 'Tornozeleira Gota',
-    category: 'Tornozeleiras',
-    price: 59.99,
-    description: '',
-    image: '/imagens/produtos/61/foto.jpeg',
-    images: ['/imagens/produtos/61/foto.jpeg'],
-  },
-  {
     id: 62,
     name: 'Tornozeleira lua',
     category: 'Tornozeleiras',
