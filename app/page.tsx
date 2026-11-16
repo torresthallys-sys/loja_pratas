@@ -861,6 +861,42 @@ const products: Product[] = [
     image: '/imagens/produtos/100/foto.jpeg',
     images: ['/imagens/produtos/100/foto.jpeg'],
   },
+  {
+    id: 101,
+    name: 'Pulseira 3x1 10MM',
+    category: 'Peças Masculinas',
+    price: 449.99,
+    description: '',
+    image: '/imagens/produtos/101/foto.webp',
+    images: ['/imagens/produtos/101/foto.webp'],
+  },
+  {
+    id: 102,
+    name: 'Pulseira 3x1 11,5MM',
+    category: 'Peças Masculinas',
+    price: 549.99,
+    description: '',
+    image: '/imagens/produtos/102/foto.webp',
+    images: ['/imagens/produtos/102/foto.webp'],
+  },
+  {
+    id: 103,
+    name: 'Pulseira Groumet 10 MM Fecho Gaveta',
+    category: 'Peças Masculinas',
+    price: 699.99,
+    description: '',
+    image: '/imagens/produtos/103/foto.webp',
+    images: ['/imagens/produtos/103/foto.webp'],
+  },
+  {
+    id: 104,
+    name: 'Pulseira Groumet 8,5MM Fecho Gaveta',
+    category: 'Peças Masculinas',
+    price: 549.99,
+    description: '',
+    image: '/imagens/produtos/104/foto.webp',
+    images: ['/imagens/produtos/104/foto.webp'],
+  },
 ]
 
 const categories = ['Todos', 'Anéis', 'Correntes', 'Pulseiras', 'Tornozeleiras', 'Piercing', 'Brincos', 'Pingentes', 'Conjuntos', 'Infantil', 'Peças Masculinas']
